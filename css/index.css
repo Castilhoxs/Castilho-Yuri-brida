@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #1d1d1d;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.yuri{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+.text-main{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.desc{
+    font-family: "National Park", sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    padding: 10px 30px;
+    font-family: "National Park", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: #f3c7c7;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 1s;
+    background-color: #f3c7c7;
+    color: #ffffff;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
